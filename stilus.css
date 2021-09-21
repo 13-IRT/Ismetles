@@ -1,0 +1,56 @@
+p {
+    color: blue;
+    font-size: 3em;
+}
+
+.oszlop {
+    min-height: auto;
+    float: left;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.elso {
+    background-color: rgb(189, 247, 134);
+    width: 25%;
+}
+
+.masodik {
+    background-color: rgb(250, 210, 99);
+    width: 50%;
+}
+
+.harmadik {
+    background-color: rgb(185, 220, 240);
+    width: 25%;
+}
+
+img {
+    width: 25%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
